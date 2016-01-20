@@ -1,0 +1,10 @@
+G:\Projects\Asp.netMVCAndAngularJS\source\sample\core\obj\Debug\core.csprojResolveAssemblyReference.cache
+G:\Projects\Asp.netMVCAndAngularJS\source\sample\core\bin\Debug\core.dll.config
+G:\Projects\Asp.netMVCAndAngularJS\source\sample\core\bin\Debug\core.dll
+G:\Projects\Asp.netMVCAndAngularJS\source\sample\core\bin\Debug\core.pdb
+G:\Projects\Asp.netMVCAndAngularJS\source\sample\core\bin\Debug\EntityFramework.dll
+G:\Projects\Asp.netMVCAndAngularJS\source\sample\core\bin\Debug\EntityFramework.SqlServer.dll
+G:\Projects\Asp.netMVCAndAngularJS\source\sample\core\bin\Debug\EntityFramework.xml
+G:\Projects\Asp.netMVCAndAngularJS\source\sample\core\bin\Debug\EntityFramework.SqlServer.xml
+G:\Projects\Asp.netMVCAndAngularJS\source\sample\core\obj\Debug\core.dll
+G:\Projects\Asp.netMVCAndAngularJS\source\sample\core\obj\Debug\core.pdb
