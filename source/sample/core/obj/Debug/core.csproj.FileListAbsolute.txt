@@ -1,4 +1,3 @@
-G:\Projects\Asp.netMVCAndAngularJS\source\sample\core\obj\Debug\core.csprojResolveAssemblyReference.cache
 G:\Projects\Asp.netMVCAndAngularJS\source\sample\core\bin\Debug\core.dll.config
 G:\Projects\Asp.netMVCAndAngularJS\source\sample\core\bin\Debug\core.dll
 G:\Projects\Asp.netMVCAndAngularJS\source\sample\core\bin\Debug\core.pdb

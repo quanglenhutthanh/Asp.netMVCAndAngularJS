@@ -51,7 +51,9 @@
     <Compile Include="Entities\DataContext.cs" />
     <Compile Include="Entities\Product.cs" />
     <Compile Include="Entities\SeedData.cs" />
+    <Compile Include="Infra\UnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\GenericRepository.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

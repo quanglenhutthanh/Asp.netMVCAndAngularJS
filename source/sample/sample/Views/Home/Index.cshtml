@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@*<input type="text" data-ng-model="name"/>
+<h2>{{name}}</h2>*@
+
+<div data-ng-controller="AngularCtrl">
+    <h3>{{name}}</h3>
+    <div data-ng-repeat="item in products">
+        <h1>{{item.ID}}</h1>
+        <h2>{{item.Name}}</h2>
+    </div>
+</div>
+
