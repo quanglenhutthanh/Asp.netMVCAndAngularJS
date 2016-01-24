@@ -9,9 +9,45 @@
 
 <div data-ng-controller="AngularCtrl">
     <h3>{{name}}</h3>
-    <div data-ng-repeat="item in products">
+    <button data-ng-click="add()">Add</button>
+    <div data-ng-show="IsModification">
+        <h2>{{operation}}</h2>
+        <table>
+            <tr>
+                <td>ID</td>
+                <td><input type="text" data-ng-model="ID"/></td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" data-ng-model="Name"/></td>
+            </tr>
+        </table>
+        <button data-ng-click="close()">Cancel</button>
+        <button data-ng-click="save()">Save</button>
+    </div>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>Name</td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr data-ng-repeat="item in products">
+                    <td>{{item.ID}}</td>
+                    <td>{{item.Name}}</td>
+                    <td>
+                        <button data-ng-click="update(item)">edit</button>
+                        <button data-ng-click="delete(item)">delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         <h1>{{item.ID}}</h1>
         <h2>{{item.Name}}</h2>
     </div>
+    
 </div>
 
